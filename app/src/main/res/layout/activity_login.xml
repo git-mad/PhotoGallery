@@ -12,14 +12,21 @@
         android:layout_height="wrap_content"
         android:layout_weight="5"
         />
+
+    <!-- TODO 1: Define a TextView for the 'Photo Gallery Login' text -->
+    <!-- Most of it is already defined for you. All you need to do is
+         - Set the id to "photo_gallery"
+         - Set the text to "Photo Gallery Login"
+         - Set the textSize to "30sp"             -->
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:id="@+id/photo_gallery"
-        android:text="Photo Gallery Login"
         android:layout_marginBottom="20dp"
 
         />
+
+    <!-- An EditText is a component that allows you to type text into a field,
+         as opposed to a TextView which only displays text. Think online forms, etc. -->
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,22 +38,27 @@
         android:layout_marginEnd="15dp"
         />
 
+    <!-- TODO 2: Change this EditText so it accepts passwords  -->
+    <!-- - Set the inputType to "textPassword"
+         - Set the hint to "Password" -->
     <EditText
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:id="@+id/password"
-        android:hint="Password"
-        android:inputType="textPassword"
         android:layout_weight="1"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/login_btn"
-        />
+
+    <!-- TODO 3: Define a button for the login screen -->
+    <!-- - Set the layout_width and layout_height to "wrap_content"
+         - Set the text to "Login"
+         - Set the id to "login_btn" -->
+
+
+
+
+    <!-- A space is just an empty view. It is used to lay things out on screen -->
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

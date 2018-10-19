@@ -18,25 +18,22 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        username = findViewById(R.id.username);
-        password = findViewById(R.id.password);
+        //TODO 4: Initialize the EditTexts for the username and password
+        //The IDs that you initialize the EditTexts with must match the IDs that
+        //you set them to in activity_login.xml
+
+
+
         login_button = findViewById(R.id.login_btn);
 
-        login_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String username_text = username.getText().toString();
-                String password_text = password.getText().toString();
-                if (username_text.length() == 0 || password_text.length() == 0) {
-                    String message = "You must enter a username and password!";
-                    Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
-                    toast.show();
-                } else {
-                    Intent intent = new Intent(getApplicationContext(), PhotoGalleryActivity.class);
-                    startActivity(intent);
-                }
-            }
-        });
+        //TODO 5: Add an OnClickListener to the login_button
+        /*
+          When the button is clicked, the activity must change to "PhotoGalleryActivity"
+
+          EXTRA: Check if the username and passwords are entered, and
+          display a toast informing the user if they are not entered.
+         */
+
 
     }
 }
