@@ -53,7 +53,8 @@
     <!-- TODO 3: Define a button for the login screen -->
     <!-- - Set the layout_width and layout_height to "wrap_content"
          - Set the text to "Login"
-         - Set the id to "login_btn" -->
+         - Set the id to "login_btn"
+         - Remove the weight attribute if you use the design tab -->
 
 
 
