@@ -18,6 +18,7 @@
         android:id="@+id/photo_gallery"
         android:text="Photo Gallery Login"
         android:layout_marginBottom="20dp"
+        android:textSize="40sp"
 
         />
     <EditText

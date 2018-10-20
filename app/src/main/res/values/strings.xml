@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Photo Gallery</string>
     <string name="title_activity_photo_gallery">PhotoGalleryActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">ProfileActivity</string>
 </resources>
