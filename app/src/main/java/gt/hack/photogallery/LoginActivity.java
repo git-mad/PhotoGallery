@@ -9,9 +9,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
-    private EditText  username;
-    private EditText  password;
-    private Button    login_button;
+    private EditText etUsername;
+    private EditText etPassword;
+    private Button btnLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-        login_button = findViewById(R.id.login_btn);
+        btnLogin = findViewById(R.id.login_btn);
 
         //TODO 5: Add an OnClickListener to the login_button
         /*
